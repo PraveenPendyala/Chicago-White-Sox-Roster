@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEC44E0D1C0A81D0007ACC88 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC44E0C1C0A81D0007ACC88 /* PlayerCell.swift */; };
+		AEC44E0F1C0BC7D9007ACC88 /* ImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC44E0E1C0BC7D9007ACC88 /* ImageProvider.swift */; };
+		F61E001F1BE9379500112972 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61E001E1BE9379500112972 /* AppDelegate.swift */; };
+		F61E00211BE9379500112972 /* PlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61E00201BE9379500112972 /* PlayersViewController.swift */; };
+		F61E00231BE9379500112972 /* PlayersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61E00221BE9379500112972 /* PlayersDetailViewController.swift */; };
+		F61E00261BE9379500112972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61E00241BE9379500112972 /* Main.storyboard */; };
+		F61E00281BE9379500112972 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61E00271BE9379500112972 /* Images.xcassets */; };
+		F61E002B1BE9379500112972 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F61E00291BE9379500112972 /* LaunchScreen.xib */; };
+		F61E00371BE9379500112972 /* ChicagoWhiteSoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61E00361BE9379500112972 /* ChicagoWhiteSoxTests.swift */; };
+		F61E00431BE940C000112972 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61E00421BE940C000112972 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F61E00311BE9379500112972 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F61E00111BE9379500112972 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F61E00181BE9379500112972;
+			remoteInfo = ChicagoWhiteSox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEC44E0C1C0A81D0007ACC88 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		AEC44E0E1C0BC7D9007ACC88 /* ImageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProvider.swift; sourceTree = "<group>"; };
+		F61E00191BE9379500112972 /* ChicagoWhiteSox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChicagoWhiteSox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61E001D1BE9379500112972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61E001E1BE9379500112972 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F61E00201BE9379500112972 /* PlayersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersViewController.swift; sourceTree = "<group>"; };
+		F61E00221BE9379500112972 /* PlayersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersDetailViewController.swift; sourceTree = "<group>"; };
+		F61E00251BE9379500112972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F61E00271BE9379500112972 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F61E002A1BE9379500112972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F61E00301BE9379500112972 /* ChicagoWhiteSoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChicagoWhiteSoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F61E00351BE9379500112972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61E00361BE9379500112972 /* ChicagoWhiteSoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChicagoWhiteSoxTests.swift; sourceTree = "<group>"; };
+		F61E00421BE940C000112972 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F61E00161BE9379500112972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61E002D1BE9379500112972 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F61E00101BE9379500112972 = {
+			isa = PBXGroup;
+			children = (
+				F61E001B1BE9379500112972 /* ChicagoWhiteSox */,
+				F61E00331BE9379500112972 /* ChicagoWhiteSoxTests */,
+				F61E001A1BE9379500112972 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F61E001A1BE9379500112972 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F61E00191BE9379500112972 /* ChicagoWhiteSox.app */,
+				F61E00301BE9379500112972 /* ChicagoWhiteSoxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F61E001B1BE9379500112972 /* ChicagoWhiteSox */ = {
+			isa = PBXGroup;
+			children = (
+				AEC44E0E1C0BC7D9007ACC88 /* ImageProvider.swift */,
+				F61E001E1BE9379500112972 /* AppDelegate.swift */,
+				F61E00201BE9379500112972 /* PlayersViewController.swift */,
+				AEC44E0C1C0A81D0007ACC88 /* PlayerCell.swift */,
+				F61E00221BE9379500112972 /* PlayersDetailViewController.swift */,
+				F61E00421BE940C000112972 /* Player.swift */,
+				F61E00241BE9379500112972 /* Main.storyboard */,
+				F61E00271BE9379500112972 /* Images.xcassets */,
+				F61E00291BE9379500112972 /* LaunchScreen.xib */,
+				F61E001C1BE9379500112972 /* Supporting Files */,
+			);
+			path = ChicagoWhiteSox;
+			sourceTree = "<group>";
+		};
+		F61E001C1BE9379500112972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F61E001D1BE9379500112972 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F61E00331BE9379500112972 /* ChicagoWhiteSoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F61E00361BE9379500112972 /* ChicagoWhiteSoxTests.swift */,
+				F61E00341BE9379500112972 /* Supporting Files */,
+			);
+			path = ChicagoWhiteSoxTests;
+			sourceTree = "<group>";
+		};
+		F61E00341BE9379500112972 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F61E00351BE9379500112972 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F61E00181BE9379500112972 /* ChicagoWhiteSox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61E003A1BE9379500112972 /* Build configuration list for PBXNativeTarget "ChicagoWhiteSox" */;
+			buildPhases = (
+				F61E00151BE9379500112972 /* Sources */,
+				F61E00161BE9379500112972 /* Frameworks */,
+				F61E00171BE9379500112972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChicagoWhiteSox;
+			productName = ChicagoWhiteSox;
+			productReference = F61E00191BE9379500112972 /* ChicagoWhiteSox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F61E002F1BE9379500112972 /* ChicagoWhiteSoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F61E003D1BE9379500112972 /* Build configuration list for PBXNativeTarget "ChicagoWhiteSoxTests" */;
+			buildPhases = (
+				F61E002C1BE9379500112972 /* Sources */,
+				F61E002D1BE9379500112972 /* Frameworks */,
+				F61E002E1BE9379500112972 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F61E00321BE9379500112972 /* PBXTargetDependency */,
+			);
+			name = ChicagoWhiteSoxTests;
+			productName = ChicagoWhiteSoxTests;
+			productReference = F61E00301BE9379500112972 /* ChicagoWhiteSoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F61E00111BE9379500112972 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Naga Praveen Kumar Pendyala";
+				TargetAttributes = {
+					F61E00181BE9379500112972 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F61E002F1BE9379500112972 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F61E00181BE9379500112972;
+					};
+				};
+			};
+			buildConfigurationList = F61E00141BE9379500112972 /* Build configuration list for PBXProject "ChicagoWhiteSox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F61E00101BE9379500112972;
+			productRefGroup = F61E001A1BE9379500112972 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F61E00181BE9379500112972 /* ChicagoWhiteSox */,
+				F61E002F1BE9379500112972 /* ChicagoWhiteSoxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F61E00171BE9379500112972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61E00261BE9379500112972 /* Main.storyboard in Resources */,
+				F61E002B1BE9379500112972 /* LaunchScreen.xib in Resources */,
+				F61E00281BE9379500112972 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61E002E1BE9379500112972 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F61E00151BE9379500112972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61E00431BE940C000112972 /* Player.swift in Sources */,
+				F61E00231BE9379500112972 /* PlayersDetailViewController.swift in Sources */,
+				AEC44E0F1C0BC7D9007ACC88 /* ImageProvider.swift in Sources */,
+				F61E00211BE9379500112972 /* PlayersViewController.swift in Sources */,
+				F61E001F1BE9379500112972 /* AppDelegate.swift in Sources */,
+				AEC44E0D1C0A81D0007ACC88 /* PlayerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61E002C1BE9379500112972 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F61E00371BE9379500112972 /* ChicagoWhiteSoxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F61E00321BE9379500112972 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F61E00181BE9379500112972 /* ChicagoWhiteSox */;
+			targetProxy = F61E00311BE9379500112972 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F61E00241BE9379500112972 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F61E00251BE9379500112972 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F61E00291BE9379500112972 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F61E002A1BE9379500112972 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F61E00381BE9379500112972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F61E00391BE9379500112972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F61E003B1BE9379500112972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChicagoWhiteSox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F61E003C1BE9379500112972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChicagoWhiteSox/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F61E003E1BE9379500112972 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChicagoWhiteSoxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChicagoWhiteSox.app/ChicagoWhiteSox";
+			};
+			name = Debug;
+		};
+		F61E003F1BE9379500112972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChicagoWhiteSoxTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChicagoWhiteSox.app/ChicagoWhiteSox";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F61E00141BE9379500112972 /* Build configuration list for PBXProject "ChicagoWhiteSox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61E00381BE9379500112972 /* Debug */,
+				F61E00391BE9379500112972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61E003A1BE9379500112972 /* Build configuration list for PBXNativeTarget "ChicagoWhiteSox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61E003B1BE9379500112972 /* Debug */,
+				F61E003C1BE9379500112972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F61E003D1BE9379500112972 /* Build configuration list for PBXNativeTarget "ChicagoWhiteSoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61E003E1BE9379500112972 /* Debug */,
+				F61E003F1BE9379500112972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F61E00111BE9379500112972 /* Project object */;
+}
